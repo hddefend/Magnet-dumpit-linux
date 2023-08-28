@@ -1,7 +1,7 @@
 # DumpItForLinux
 
 # Make build 
-1 - On linux, install librairie
+1 - On linux, install librairy
 ```
 sudo apt install git build-essential liblzma-dev pkg-config
 ```
