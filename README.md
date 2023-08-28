@@ -1,9 +1,35 @@
 # DumpItForLinux
 
 # Make build 
+1 - On linux, install librairie
+```
+sudo apt install git build-essential liblzma-dev pkg-config
+```
 
+2 - On linux, install rust language
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
 
+3 - Clone the magnet dumpit linux repository
+```
+git clone https://github.com/MagnetForensics/dumpit-linux.git
+```
 
+4 - Change directory
+```
+cd dumpit-linux
+```
+
+5 - Build the download release
+```
+cargo build --release
+```
+
+6 - Change directory to get binary
+```
+cd target/release
+```
 
 # Getting Started
 `dumpit-linux` (or `DumpItForLinux`) is very straight forward - the only thing you need is root permission as it relies on /proc/kcore to create a compact version, and is compatible with the old and new versions of `/proc/kcore`.
