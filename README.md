@@ -3,7 +3,7 @@
 # Make build 
 1 - On linux, install librairy
 ```
-sudo apt install git build-essential liblzma-dev pkg-config
+sudo apt install -y git build-essential liblzma-dev pkg-config
 ```
 
 2 - On linux, install rust language
