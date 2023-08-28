@@ -1,5 +1,10 @@
 # DumpItForLinux
 
+# Make build 
+
+
+
+
 # Getting Started
 `dumpit-linux` (or `DumpItForLinux`) is very straight forward - the only thing you need is root permission as it relies on /proc/kcore to create a compact version, and is compatible with the old and new versions of `/proc/kcore`.
 
